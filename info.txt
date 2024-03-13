@@ -1,0 +1,6 @@
+Flask => Microframework for web backend development using Python
+
+redirect() => used for page redirection
+
+url_for() => used for getting a url based on function name
+

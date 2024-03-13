@@ -1,0 +1,19 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Our Funky HTML Page</title>
+        <meta name="description" content="Our first page">
+        <meta name="keywords" content="html tutorial template">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>{{content}}</p>
+        <!-- {% for x in range(10) %}
+            <p>Hello World</p>
+        {% endfor %} -->
+        {% for x in content %}
+            <p>{{ x }}</p>
+        {% endfor %}
+    </body>
+</html>
