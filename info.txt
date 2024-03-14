@@ -4,3 +4,4 @@ redirect() => used for page redirection
 
 url_for() => used for getting a url based on function name
 
+session module => used to store session data for temporary purpose in browser. Once the browser window is closed then session data is automatically deleted along with it.It is possible to store session data permanently/for longer time.
